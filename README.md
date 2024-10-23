@@ -19,8 +19,8 @@ This is an implementation of the Hangman game using python, where the computer t
 
 **What I learned**:
 - Basics of Git and GitHub for version control.
-- Using Python's `random` module and `input()` function.
-- Error handling with `if` and `else` statements.
+- Using Python's *'random'* module and *'input ()'* function.
+- Error handling with *'if'* and *'else'* statements.
   
 ## Installation Instructions
 To run the project locally, follow these steps:
