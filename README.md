@@ -31,13 +31,13 @@ To run the project locally, follow these steps:
 DRAFT - TO BE CHANGED
 
 ## Usage instructions
-1. The script will be run providing a random name from a defined list
-2. The user will input a letter of their choice
-3. The program will validate the user input to check selection is valid
-4. If valid the program will determine whether the letter is within the selected word
-5. The process repeats from step 2
+1. The script will be run providing a random name from a defined list.
+2. The user will input a letter of their choice.
+3. The program will validate the user input to check selection is valid.
+4. If valid, the program will determine whether the letter is within the selected word.
+5. The process repeats from step 2.
 6. The user has a predetermined number of attempts to obtain all of the letters in the word.
-7. Should the word be guessed or the user have used all of their attempts the game will end and the outcome will be provided to the user.
+7. Should the word be guessed, or the user have used all of their attempts, the game will end and the outcome will be provided to the user.
 
 ### File structure
 TBD
