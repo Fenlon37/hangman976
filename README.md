@@ -21,16 +21,15 @@ This is an implementation of the Hangman game using python, where the game rando
 **What I learned**:
 - Basics of Git and GitHub for version control.
 - Using Python's *'random'* module and *'input ()'* function.
-- Writing modular code through the use of functions and class
+- Writing modular code through the use of functions and classes.
 - Error handling with *'if'*, *elif* and *'else'* statements.
   
 ## Installation Instructions
 To run the project locally, follow these steps:
-1. Clone the repository - git clone.....
-2. Navigate to the project directory using the *cd* command
+1. Clone the repository: git clone https://github.com/Fenlon37/hangman976.git
+2. Navigate to the project directory using the *cd* command.
 3. Make sure python (3.6 or later) is installed using the *python --version* command.
-4. Run the python game script *python milestone_5.py*
-DRAFT - TO BE CHANGED
+4. Run the python game script *python milestone_5.py*.
 
 ## Usage instructions
 1. The script will be run providing a random name from a predefined list.
@@ -42,6 +41,13 @@ DRAFT - TO BE CHANGED
 7. Should the word be guessed, or the user have used all of their attempts, the game will end and the outcome will be provided to the user.
 
 ### File structure
-TBD
+hangman-game/
+│
+├── milestone_1.py        # Initial script for Hangman logic and letter validation.
+├── milestone_2.py        # Refined code with basic game loops and feedback.
+├── milestone_3.py        # Script adding letter and word checking methods.
+├── milestone_4.py        # Script with class-based refactoring and game setup.
+└── milestone_5.PY        # Final script including game logic and refined code.
+└── README.md             # Project documentation and instructions
 ### Licence
-TBD
+This project is licensed under the MIT License. You are free to use, modify, and distribute this code, as long as proper credit is given.
