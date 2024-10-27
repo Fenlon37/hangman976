@@ -1,21 +1,22 @@
 import random
 
-class hangman:
+class Hangman:
  """
- Class of the hangman game
+ Class of the Hangman game
  """
  def __init__(self, word_list, num_lives=5):
   """
-  The hangman game will have the parameters of word_list and num_lives initialised.
+  The Hangman game will have the parameters of word_list and num_lives initialised.
   """
   self.word_list = word_list
   self.num_lives = num_lives
-
   self.word = random.choice(self.word_list)
-  
   self.word_guessed = ['_' for _ in self.word]
   self.num_letters = len(set(self.word))
   self.list_of_guesses = []
+  
+  print(f"The mystery word has {len(self.word)} characters")
+  print(" ".join(self.word_guessed))
  """
  Creating function to check that the guess made is within the word and calculating lives left.
  """
@@ -26,6 +27,8 @@ class hangman:
    for index, letter in enumerate(self.word):
     if letter == guess:
      self.word_guessed[index] = guess
+   self.num_letters -= 1
+   print(" ".join(self.word_guessed)) 
   else:
     self.num_lives -= 1 
     print(f"Sorry, {guess} is not in the word.")
@@ -34,24 +37,31 @@ class hangman:
  """
  Creating while loop to ask for input of letter and checking that it is a valid and not previously tried.
  """
- def ask_for_input(self):
+ def ask_letter(self):
   while True:
-   guess = input("Guess a letter: ")
+   guess = input("Please guess a letter: ").lower()
    if len(guess) != 1 or not guess.isalpha():
-    print("Invalid letter. Please, enter a single alphabetical character.")
+    print("Invalid letter. Please, enter just one character.")
    elif guess in self.list_of_guesses:
-    print("You already tried that letter!")
+    print(f"{guess} was already tried")
    else:
     self.check_guess(guess)
     self.list_of_guesses.append(guess)
     break
-   ask_for_input(self)
+
+def play_game(word_list):
+ num_lives = 5
+ game = Hangman(word_list, num_lives=5)
+ while True:
+  if game.num_lives == 0:
+   print(f"You lost! The word was {game.word}")
+   break
+  elif game.num_letters > 0:
+   game.ask_letter()
+  else:
+   print("Congratulations. You won the game!")
+   break 
 
 if __name__ == "__main__":
- word_list = ["Apple", "Banana", "Grape", "Mango", "Orange"]
- game = hangman(word_list)
- game.ask_for_input()
-
- print("Word guessed so far:", game.word_guessed)
- print("List of guesses:", game.list_of_guesses)
- print("Lives remaining:", game.num_lives)
+ word_list = ["apple", "banana", "grape", "mango", "orange"]
+ play_game(word_list)
