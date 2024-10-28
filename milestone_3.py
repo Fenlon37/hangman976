@@ -2,7 +2,7 @@
 import random
 
 # 2. Creating word list and selecting word from list for game.
-word_list = ["Apple", "Banana", "Grape", "Mango", "Orange"]
+word_list = ["apple", "banana", "grape", "mango", "orange"]
 word = random.choice(word_list)
 
 # 3. Creating function to check that the guess made is within the word.

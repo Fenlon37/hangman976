@@ -1,7 +1,7 @@
 import random
 def word_letter_choice():
 # 1. Selection of words for game from list
- word_list = ["Apple", "Banana", "Grape", "Mango", "Orange"]
+ word_list = ["apple", "banana", "grape", "mango", "orange"]
 
 # 2. Random word to be chosen from specified list
  word = random.choice(word_list)
@@ -21,3 +21,4 @@ def word_letter_choice():
 
 # 6. Call the function.
 word_letter_choice()
+
