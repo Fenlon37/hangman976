@@ -44,9 +44,9 @@ Hangman game
 1. milestone_2.py                       
 - Initial script for Hangman logic and letter validation
 2. milestone_3.py                        
-- Refined code with basic game loops and feedback
+- Refined code including functions with basic game loops and feedback
 3. milestone_4.py                      
-- Script adding letter and word checking methods
+- Script adding classes, letter and word checking methods
 4. milestone_5.py                   
 - Final script running the game with class-based refactoring
 5.  README.md  
