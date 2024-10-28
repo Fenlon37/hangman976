@@ -41,16 +41,14 @@ To run the project locally, follow these steps:
 
 ### File structure
 Hangman game                         
-1. milestone_1.py                       
+1. milestone_2.py                       
 - Initial script for Hangman logic and letter validation
-2. milestone_2.py                        
+2. milestone_3.py                        
 - Refined code with basic game loops and feedback
-3. milestone_3.py                      
+3. milestone_4.py                      
 - Script adding letter and word checking methods
-4. milestone_4.py                   
-- Script with class-based refactoring and complete gameplay
-5. milestone_5.py               
-- Final script for running the game
-6.  README.md  
+4. milestone_5.py                   
+- Final script running the game with class-based refactoring
+5.  README.md  
 ### Licence
 This project is licensed under the MIT License. You are free to use, modify, and distribute this code, as long as proper credit is given.
