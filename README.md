@@ -36,9 +36,8 @@ To run the project locally, follow these steps:
 2. The user will try to guess the word by inputting a letter of their choice until they are out of lives.
 3. The program will validate the user input to check selection is valid.
 4. If valid, the program will determine whether the letter is within the selected word.
-5. The process repeats from step 2.
-6. The user starts with 5 lives and will lose one for each incorrect attempt.
-7. Should the word be guessed, or the user have used all of their attempts, the game will end and the outcome will be provided to the user.
+5. The user starts with 5 lives and will lose one for each incorrect attempt.
+6. Should the word be guessed, or the user have used all of their attempts, the game will end and the outcome will be provided to the user.
 
 ### File structure
 TO BE UPDATED
