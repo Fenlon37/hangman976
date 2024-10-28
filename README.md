@@ -22,7 +22,7 @@ This is an implementation of the Hangman game using python, where the game rando
 - Basics of Git and GitHub for version control.
 - Using Python's *'random'* module and *'input ()'* function.
 - Writing modular code through the use of functions and classes.
-- Error handling with *'if'*, *elif* and *'else'* statements.
+- Error handling with *'if'*, *'elif'* and *'else'* statements.
   
 ## Installation Instructions
 To run the project locally, follow these steps:
