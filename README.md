@@ -7,14 +7,13 @@
 - [License](#license)
 
 ## Project Description
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+The hangman game involves a player thinking of a word and another player attempting to guess that word within a certain amount of attempts.
 
-This is an implementation of the Hangman game using python, where the game randomly selects a word from a pre-defined list and the user tries to guess it before they run out of lives. 
-
+This project implemented the Hangman game using python, where the game randomly selected a word from a pre-defined list and the user tries to guess it before they run out of lives. 
 
 **Aim of the project**:
 - Utilise python techniques and concepts including lists, loops, functions, classes and conditional statements in Python.
-- Practice taking user input and verifying its validity.
+- Receive user input and verify its validity.
 - Create a console-based game within python.
 - Gain experience in version control using Git and GitHub.
 
@@ -28,7 +27,7 @@ This is an implementation of the Hangman game using python, where the game rando
 To run the project locally, follow these steps:
 1. Clone the repository: git clone https://github.com/Fenlon37/hangman976.git
 2. Navigate to the project directory using the *cd* command.
-3. Make sure python (3.6 or later) is installed using the *python --version* command.
+3. Make sure python (3.6 or later) is installed. The python version can be checked using the *python --version* command.
 4. Run the python game script *python milestone_5.py*.
 
 ## Usage instructions
