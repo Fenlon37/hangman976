@@ -41,11 +41,18 @@ To run the project locally, follow these steps:
 ### File structure
 
 ├── milestone_2.py     # Initial script for Hangman logic and letter validation
+
 ├── milestone_3.py     # Refined code including functions with basic game loops and feedback
+
 ├── milestone_4.py     # Script adding classes, letter and word checking methods
+
 ├── Milestone_5.py     # Final script running the game with class-based refactoring
+
+
 ├── .gitignore             
+
 ├── LICENSE         
+
 └── README.md
 
 ### Licence
