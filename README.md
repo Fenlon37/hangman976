@@ -39,15 +39,14 @@ To run the project locally, follow these steps:
 6. Should the word be guessed, or the user have used all of their attempts, the game will end and the outcome will be provided to the user.
 
 ### File structure
-Hangman game                         
-1. milestone_2.py                       
-- Initial script for Hangman logic and letter validation
-2. milestone_3.py                        
-- Refined code including functions with basic game loops and feedback
-3. milestone_4.py                      
-- Script adding classes, letter and word checking methods
-4. milestone_5.py                   
-- Final script running the game with class-based refactoring
-5.  README.md  
+
+├── milestone_2.py     # Initial script for Hangman logic and letter validation
+├── milestone_3.py     # Refined code including functions with basic game loops and feedback
+├── milestone_4.py     # Script adding classes, letter and word checking methods
+├── Milestone_5.py     # Final script running the game with class-based refactoring
+├── .gitignore             
+├── LICENSE         
+└── README.md
+
 ### Licence
 This project is licensed under the MIT License. You are free to use, modify, and distribute this code, as long as proper credit is given.
