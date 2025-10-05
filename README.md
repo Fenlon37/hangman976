@@ -48,7 +48,6 @@ To run the project locally, follow these steps:
 
 ├── Milestone_5.py     # Final script running the game with class-based refactoring
 
-
 ├── .gitignore             
 
 ├── LICENSE         
