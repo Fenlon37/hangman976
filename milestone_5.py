@@ -1,9 +1,8 @@
 import random
 
 class Hangman:
- '''
-    A Hangman Game that asks the user for a letter and checks if it is in the word.
-    It starts with a default number of lives and a random word from the word_list.
+ '''A Hangman game that asks the user for a letter and checks if it is in the word.
+    It starts with a specified number of lives and a random word from the word_list.
 
     Parameters:
     ----------
@@ -32,8 +31,7 @@ class Hangman:
     check_letter(letter)
         Checks if the letter is in the word.
     ask_letter()
-        Asks the user for a letter.
-    '''
+        Asks the user for a letter.'''
  
  def __init__(self, word_list, num_lives=5):  # Initiating the variables.
   self.word_list = word_list
